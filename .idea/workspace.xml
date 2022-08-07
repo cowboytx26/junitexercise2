@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18335eb8-278e-4054-aefc-7f92f3e8e3da" name="Changes" comment="" />
+    <list default="true" id="18335eb8-278e-4054-aefc-7f92f3e8e3da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/src/test/java/com/udacity/cart/service/TotalsWithDiscountCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cart/src/test/java/com/udacity/cart/service/TotalsWithDiscountCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/target/surefire-reports/TEST-com.udacity.cart.service.TotalsCalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/surefire-reports/TEST-com.udacity.cart.service.TotalsCalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/target/surefire-reports/TEST-com.udacity.cart.service.TotalsWithDiscountCalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/surefire-reports/TEST-com.udacity.cart.service.TotalsWithDiscountCalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/target/surefire-reports/com.udacity.cart.service.TotalsCalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/surefire-reports/com.udacity.cart.service.TotalsCalculatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/target/surefire-reports/com.udacity.cart.service.TotalsWithDiscountCalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/surefire-reports/com.udacity.cart.service.TotalsWithDiscountCalculatorTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/target/test-classes/com/udacity/cart/service/TotalsWithDiscountCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cart/target/test-classes/com/udacity/cart/service/TotalsWithDiscountCalculatorTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2D0SvDtLXL2DTlaPAw0gFGQeGhK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

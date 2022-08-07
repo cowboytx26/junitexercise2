@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.026" tests="6" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.022" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Users/brianwiatrek/Library/Java/JavaVirtualMachines/openjdk-18/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/brianwiatrek/IdeaProjects/starter/cart/target/surefire/surefirebooter15357782290270392157.jar /Users/brianwiatrek/IdeaProjects/starter/cart/target/surefire 2022-08-06T22-14-01_250-jvmRun1 surefire10043475982612020559tmp surefire_08841540695957579937tmp"/>
+    <property name="sun.java.command" value="/Users/brianwiatrek/IdeaProjects/starter/cart/target/surefire/surefirebooter4515007038299006567.jar /Users/brianwiatrek/IdeaProjects/starter/cart/target/surefire 2022-08-07T09-30-54_928-jvmRun1 surefire186255591247368952tmp surefire_05169882927476661094tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/brianwiatrek/IdeaProjects/starter/cart/target/test-classes:/Users/brianwiatrek/IdeaProjects/starter/cart/target/classes:/Users/brianwiatrek/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/Users/brianwiatrek/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/brianwiatrek/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/brianwiatrek/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/Users/brianwiatrek/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/Users/brianwiatrek/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/Users/brianwiatrek/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.7.0/junit-jupiter-params-5.7.0.jar:"/>
@@ -29,7 +29,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/brianwiatrek/IdeaProjects/starter/cart/target/surefire/surefirebooter15357782290270392157.jar"/>
+    <property name="surefire.real.class.path" value="/Users/brianwiatrek/IdeaProjects/starter/cart/target/surefire/surefirebooter4515007038299006567.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="18+36-2087"/>
@@ -55,14 +55,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="totalsWithDiscounts_regularAndPlatinumUser_returnsDifferentSubtotal[1]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.001"/>
-  <testcase name="totalsWithDiscounts_regularAndPlatinumUser_returnsDifferentSubtotal[2]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0"/>
-  <testcase name="totalsWithDiscounts_regularAndPlatinumUser_returnsDifferentSubtotal[3]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.001"/>
-  <testcase name="totalsWithDiscount_getTotals_reducesUserCredit{double}[1]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.012"/>
-  <testcase name="totalsWithDiscount_getTotals_reducesUserCredit{double}[2]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.004">
-    <failure message="expected: &lt;0.0&gt; but was: &lt;20.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0.0> but was: <20.0>
-	at com.udacity.cart.service.TotalsWithDiscountCalculatorTest.totalsWithDiscount_getTotals_reducesUserCredit(TotalsWithDiscountCalculatorTest.java:56)
-]]></failure>
-  </testcase>
-  <testcase name="totalsWithDiscount_getTotals_reducesUserCredit{double}[3]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0"/>
+  <testcase name="totalsWithDiscounts_regularAndPlatinumUser_returnsDifferentSubtotal{double, double, double, double, TotalsWithDiscountCalculator}[1]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.01"/>
+  <testcase name="totalsWithDiscounts_regularAndPlatinumUser_returnsDifferentSubtotal{double, double, double, double, TotalsWithDiscountCalculator}[2]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0"/>
+  <testcase name="totalsWithDiscount_getTotals_reducesUserCredit{double}[1]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.001"/>
+  <testcase name="totalsWithDiscount_getTotals_reducesUserCredit{double}[2]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0"/>
+  <testcase name="totalsWithDiscount_getTotals_reducesUserCredit{double}[3]" classname="com.udacity.cart.service.TotalsWithDiscountCalculatorTest" time="0.001"/>
 </testsuite>

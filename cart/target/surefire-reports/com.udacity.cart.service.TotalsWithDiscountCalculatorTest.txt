@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.udacity.cart.service.TotalsWithDiscountCalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.026 s <<< FAILURE! - in com.udacity.cart.service.TotalsWithDiscountCalculatorTest
-totalsWithDiscount_getTotals_reducesUserCredit{double}[2]  Time elapsed: 0.004 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <0.0> but was: <20.0>
-	at com.udacity.cart.service.TotalsWithDiscountCalculatorTest.totalsWithDiscount_getTotals_reducesUserCredit(TotalsWithDiscountCalculatorTest.java:56)
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in com.udacity.cart.service.TotalsWithDiscountCalculatorTest
